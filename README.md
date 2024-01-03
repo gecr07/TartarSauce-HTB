@@ -103,6 +103,7 @@ echo "Waiting for new logs..."
 tail -f /var/backups/onuma_backup_error.txt
 ```
 
+Aqui la vulnerabilidad reside en que diff es ejecutado con priv de root lo que hace que al abrir el archivo muestre la flag.
 
 
 
